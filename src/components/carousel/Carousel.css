@@ -1,9 +1,17 @@
   
   .pic-ctn {
+    width: 80%;
+    height: 476px;
+    /* background-color: #F7F9FC; */
+    z-index: -1;
+    position: relative;
+    margin: auto;
+
+  }
+  /* .pic-ctn {
     width: 100vw;
     height: 456px;
-    background-color: #F7F9FC;
-  }
+  } */
   
   @keyframes display {
     0% {
@@ -28,11 +36,7 @@
     }
   }
   
-  .pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 456px;
-  }
+
   
   .pic-ctn > img {
     position: absolute;

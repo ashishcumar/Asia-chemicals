@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.8905058e.css",
-    "main.js": "/static/js/main.337d3592.js",
+    "main.css": "/static/css/main.7c35f136.css",
+    "main.js": "/static/js/main.55247b1b.js",
+    "static/media/Image.png": "/static/media/Image.7377a6ec85117a018012.png",
+    "static/media/Screenshot 2023-10-14 at 6.58.14 PM.png": "/static/media/Screenshot 2023-10-14 at 6.58.14 PM.aee251225ef98d8788ff.png",
+    "static/media/1.png": "/static/media/1.08b0aa57e64de5e2cbb3.png",
+    "static/media/Screenshot 2023-10-14 at 6.58.30 PM.png": "/static/media/Screenshot 2023-10-14 at 6.58.30 PM.0523fbb9b40642ecb28d.png",
+    "static/media/1.jpeg": "/static/media/1.bc2d9470c211d411adcf.jpeg",
+    "static/media/2.png": "/static/media/2.03177deb8b6f57b4957d.png",
+    "static/media/wooden-handle-brush.jpg": "/static/media/wooden-handle-brush.5f829cfd83617f11a1a2.jpg",
+    "static/media/56101508SD05541_A1_546x307.jpg": "/static/media/56101508SD05541_A1_546x307.cf26c0d1d79be70e02cb.jpg",
+    "static/media/Balcony:Terrace3.jpeg": "/static/media/Balcony:Terrace3.188efcd98a346d190301.jpeg",
+    "static/media/2.jpg": "/static/media/2.5f27028c8a9c82ea8f5e.jpg",
+    "static/media/4001ISOR.webp": "/static/media/4001ISOR.b9148048c6ce12e0a6fd.webp",
+    "static/media/nylon-conveyor-roller.jpg": "/static/media/nylon-conveyor-roller.bead65686f5f870de4ab.jpg",
+    "static/media/nilkamal-bed-mattress.jpg": "/static/media/nilkamal-bed-mattress.744fea62e9e54f29006b.jpg",
+    "static/media/plastiline-polyurethane-thmb.jpg": "/static/media/plastiline-polyurethane-thmb.47c790314c9c82560a0e.jpg",
+    "static/media/whatsappIcon.png": "/static/media/whatsappIcon.3ff0c4cf5478770b0e08.png",
+    "static/media/epoxy-floor-painting-500x500.webp": "/static/media/epoxy-floor-painting-500x500.f3ecc18bce8533fdba9d.webp",
     "index.html": "/index.html",
-    "main.8905058e.css.map": "/static/css/main.8905058e.css.map",
-    "main.337d3592.js.map": "/static/js/main.337d3592.js.map"
+    "main.7c35f136.css.map": "/static/css/main.7c35f136.css.map",
+    "main.55247b1b.js.map": "/static/js/main.55247b1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8905058e.css",
-    "static/js/main.337d3592.js"
+    "static/css/main.7c35f136.css",
+    "static/js/main.55247b1b.js"
   ]
 }

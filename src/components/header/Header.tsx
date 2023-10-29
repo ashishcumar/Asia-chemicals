@@ -23,7 +23,7 @@ function Header() {
         <a onClick={() => navigate('/?products=true')} >
           Products
         </a>
-        <a onClick={() => {navigate('/about-us');console.log('sdjkfsdf sdf')}} >
+        <a  onClick={() => navigate('/about-us')}>
           About us
         </a>
         <a href={`https://api.whatsapp.com/send?phone=91${whatsappContactNumber}`} >

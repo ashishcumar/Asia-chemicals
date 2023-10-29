@@ -4,6 +4,7 @@ import Header from "../header/Header";
 import "./About.css";
 import bgImg from '../../images/Carousel/1.jpeg'
 import { useSearchParams } from "react-router-dom";
+import whatsappIcon from '../../images/whatsappIcon.png'
 
 function About() { 
 
@@ -39,6 +40,7 @@ function About() {
         <img src={bgImg} alt="bgImg" className="bg-img" />
       </div>
       <Footer />
+      <img src={whatsappIcon} alt='whatsappIcon' className='whatsapp-icon'/>
     </div>
   );
 }

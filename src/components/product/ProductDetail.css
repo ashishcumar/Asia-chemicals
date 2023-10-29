@@ -50,7 +50,7 @@ header {
 
 .pd-product-image-options img {
   height: 100px;
-  width: 60px;
+  width: 88px;
   margin: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 8px;
@@ -66,12 +66,13 @@ header {
   padding: 20px;
   border-radius: 5px;
   height: 300px;
-  border:2px solid red
 }
 .pd-product-image img{
     height: 100%;
     width: 100%;
 }
+
+
 
 .pd-product-description {
   flex: 1;
@@ -100,6 +101,19 @@ header {
   margin-bottom: 20px;
 }
 
+.whatsapp-icon{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  padding: 8px;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
 @media (max-width: 768px) {
   .pd-product-details {
     flex-direction: column;
@@ -113,4 +127,25 @@ header {
   .pd-product-description {
     padding: 20px;
   }
+  .pd-container{
+    width: 90%;
+    margin: 50px auto;
+  }
+  .pd-product-slider{
+    width: 100%;
+  }
+
+  .whatsapp-icon{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:20px;
+    right:0px;
+    padding: 8px;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 10;
+  }
+
 }

@@ -4,6 +4,7 @@ import Header from "../header/Header";
 import { useEffect, useState } from "react";
 import { ProductCardsDetails } from "../../helper/constant";
 import './ProductDetail.css'
+import whatsappIcon from '../../images/whatsappIcon.png'
 
 function ProductDetail() {
   const param = useParams();
@@ -13,7 +14,7 @@ function ProductDetail() {
   useEffect(() => {
     if (param?.id) {
       setProductDetails(
-        ProductCardsDetails.filter((item) => item.productName === param.id)[0]
+        ProductCardsDetails.filter((item) => item.id === Number(param.id))[0]
       );
     }
   }, [param]);
@@ -29,6 +30,7 @@ function ProductDetail() {
               <img
                 src={productImage ? productImage : productDetails?.productImages[0]}
                 alt={productDetails?.productName}
+                style={{width: productDetails?.id == 7 && (!productImage || productImage === productDetails?.productImages[0]) ?  "60%" :  "100%"}}
               />
             </div>
             <div className="pd-product-image-options">
@@ -53,7 +55,7 @@ function ProductDetail() {
               long.
             </div> */}
             <div className="pd-product-features">
-              <h2>Key Features</h2>
+              <h4>Key Features :- </h4>
               <ul>
                 {productDetails?.details?.map((item: string) => {
                   return (
@@ -68,6 +70,7 @@ function ProductDetail() {
           </div>
         </div>
       </div>
+      <img src={whatsappIcon} alt='whatsappIcon' className='whatsapp-icon'/>
       <Footer />
     </>
   );

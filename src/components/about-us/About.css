@@ -50,3 +50,36 @@ footer {
 .about-us-points,.about-us-paragraph{
     margin: 8px;
 }
+
+.whatsapp-icon{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  padding: 8px;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  z-index: 10;
+}
+
+@media (max-width:600px) {
+  .about-us-text-ctn{
+    margin: 48px auto;
+    width: 90%;
+  }
+
+  .whatsapp-icon{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:20px;
+    right:20px;
+    padding: 8px;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 10;
+  }
+}

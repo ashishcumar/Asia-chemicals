@@ -10,14 +10,14 @@ function ProductCards() {
           return (
             <div className="pc-product-card" key={index}>
               <div className="pc-product-image">
-                <img src={product.productCardImage} alt={product.productName} />
+                <img src={product.productCardImage} alt={product.productName} id={`product_${product.id}`}/>
               </div>
               <div className="pc-product-title">{product.productName}</div>
               {/* <div className="product-description">This is a brief description of the product. It can be a few lines long.</div> */}
               <div className="pc-product-price">By Asia Chemicals</div>
               <button
                 className="pc-buy-button"
-                onClick={() => window.open(`/product/${product.productName}`)}
+                onClick={() => window.open(`/product/${product.id}`)}
               >
                 View Details
               </button>

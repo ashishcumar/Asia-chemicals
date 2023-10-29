@@ -18,11 +18,16 @@ import puPaint1 from '../images/PU_Paint/epoxy-floor-painting-500x500.webp'
 import puPaint2 from '../images/PU_Paint/plastiline-polyurethane-thmb.jpg'
 import mattress1 from '../images/Mattress/56101508SD05541_A1_546x307.jpg'
 import mattress2 from '../images/Mattress/nilkamal-bed-mattress.jpg'
+import waterProofingChemical1 from "../images/Product_Images/Waterproofing_Chemical/Image.png"
+import waterProofingChemical2 from "../images/Waterproofing_chemical/Balcony:Terrace3.jpeg"
+import waterProofingChemical3 from "../images/Waterproofing_chemical/download.jpeg"
+
 
 export const whatsappContactNumber = "7506634450"
 export const ProductCardsDetails = [
   {
     productName: "PU Rubber Binder",
+    id:1,
     details: [
       `Single Component Product which acts as a glueing agent for rubber granules.`,
       `Manufactured with the best and pure raw materials.`,
@@ -37,6 +42,7 @@ export const ProductCardsDetails = [
   },
   {
     productName: "PU Binder For Rebonded Foam",
+    id:2,
     details: [
       `Single pack Application which acts as a glueing agent to manufacture rebonded foam.`,
       `Manufactured with the best and pure raw materials.`,
@@ -51,33 +57,21 @@ export const ProductCardsDetails = [
   },
   {
     productName: "Rebonded Foam",
+    id:3,
     details: [
       `Produced with fresh PU scrap.`,
-      `Best in class coverage between 35-45 Sq feet.`,
-      `Cost Effective.`,
-      `Best in class curing time.`,
-      `PU Based Formula`,
-      `Compatible with all construction materials from all types of paints, to bricks, RCC/PCC.`,
-      `Available in packaging in 1,5,10kg`,
+      `Available in all densities(70-110 D).`,
+      `Available in all sizes which can be customised as per your needs.`,
+      `Supply Pan India.`,
+      `End Application- Raw Material for mattress industry and used in flooring of automobile industry.`,
     ],
     productCardImage: rebondedProdImg,
     hasVideo: false,
     productImages: [rebondedForm1,rebondedForm2],
   },
   {
-    productName: "Resin & Hardener for Rollers and Paint Brushes",
-    details: [
-      `2 Pack Solution which acts as a glueing agent for the paint bristles to its handles.`,
-      `PU based solution.`,
-      `Supply Pan India`,
-      `Packaging- 1,5,10,20kg.`,
-    ],
-    productCardImage: resinProdImg,
-    hasVideo: false,
-    productImages: [resinHardener1,resinHardener2,resinHardener3],
-  },
-  {
     productName: "PU Paint",
+    id:4,
     details: [
       `2 Pack solution`,
       `PU Floor Coating solutions for all commercial and industrial applications.`,
@@ -92,6 +86,7 @@ export const ProductCardsDetails = [
   },
   {
     productName: "Mattresses",
+    id:5,
     paragraph:
       "Asia Chemicals have launched a mattress line by the name of Cocoon Comfort and have been supplying PAN india as per our customers needs.",
     details: [
@@ -103,6 +98,36 @@ export const ProductCardsDetails = [
     productCardImage: mattressProdImg,
     hasVideo: false,
     productImages: [mattress1,mattress2],
+  },
+  {
+    productName: "Resin & Hardener for Rollers and Paint Brushes",
+    id:6,
+    details: [
+      `2 Pack Solution which acts as a glueing agent for the paint bristles to its handles.`,
+      `PU based solution.`,
+      `Supply Pan India`,
+      `Packaging- 1,5,10,20kg.`,
+    ],
+    productCardImage: resinProdImg,
+    hasVideo: false,
+    productImages: [resinHardener1,resinHardener2,resinHardener3],
+  },
+  {
+    productName: "Hydro Armour (Waterproofing Chemical)",
+    paragraph:"We have developed a waterproofing chemical by the trade name Hydroarmour.",
+    id:7,
+    details: [
+      `Single Component Application.`,
+      `Best in class coverage between 35-45 Sq feet.`,
+      `Cost Effective`,
+      `Best in class curing time.`,
+      `PU Based Formula`,
+      `Compatible with all construction materials from all types of paints, to bricks, RCC/PCC.`,
+      `Available in packaging in 1,5,10kg`
+    ],
+    productCardImage: waterProofingChemical1,
+    hasVideo: false,
+    productImages: [waterProofingChemical1,waterProofingChemical2,waterProofingChemical3],
   },
 ];
 
